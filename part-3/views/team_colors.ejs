@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Practice Challenge Part 3: <%= teamName %> Colors</title>
+  </head>
+  <body>
+    <ul id='color-list'>
+      <% for (var color of colors) { %>
+        <li><%= color %></li>
+      <% } %>
+    </ul>
+    <h2>Add Color</h2>
+    <input id="new-color" type="text">
+    <button id="add-color">Add color</button>
+  </body>
+</html>

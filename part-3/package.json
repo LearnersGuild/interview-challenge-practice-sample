@@ -1,0 +1,18 @@
+{
+  "name": "section-2",
+  "version": "1.0.0",
+  "author": "Bonnie Schulkin",
+  "scripts": {
+    "dev:start": "nodemon app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "pg-promise": "^7.3.2",
+    "pug": "^2.0.0-rc.4"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "section-1",
+  "version": "1.0.0",
+  "author": "Bonnie Schulkin",
+  "scripts": {
+    "db:create": "psql < schema.sql",
+    "db:seed": "psql < seed.sql"
+  },
+  "dependencies": {
+    "pg-promise": "^7.3.2"
+  }
+}
