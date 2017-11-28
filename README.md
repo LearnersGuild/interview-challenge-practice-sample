@@ -20,8 +20,8 @@
 - During the live coding interview you may:
 
   - google search for reference material from the web.
-  - use the command line and/or the browser console to debug your work.
-  - use Postico or psql to examine the database.
+  - examine the database interactively.
+  - send GET and POST requests to your express server for debugging / confirmation.
 
 ## Part 1: SQL
 
