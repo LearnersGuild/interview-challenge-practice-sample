@@ -6,9 +6,9 @@
 
 - You may choose either Pug or EJS as a template engine (here and in the live coding interview).
 
-- The live coding interview will have __all the same sections__ as this sample challenge, but the __exact tasks will vary__. For example, you might be asked to:
+- The live coding interview will have __all the same parts__ as this sample challenge, but the __exact tasks will vary__. For example, you might be asked to:
   - write a different kind of SQL query
-  - utilize GET data in the *Express GET Route* section
+  - utilize GET data in Part 2
   - remove an element from the DOM
 
 - Refer to `extra/topics.md` file in this repo for a list of topics covered to understand the possible range of topics.
