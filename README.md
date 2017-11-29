@@ -64,7 +64,7 @@ Create a POST route for `/teams/add` that receives JSON data and adds a new team
 ## Part 3: Front-End
 
 ### HTML and CSS
-Add a yellow banner across the top of the `team_colors.pug` OR `team_colors.ejs` page with a title "<teamName> Colors" (where <teamName> is the name of the team whose colors are being displayed).
+Add a yellow banner across the top of the `team_colors.pug` OR `team_colors.ejs` page with a title "[teamName] Colors" (where [teamName] is the name of the team whose colors are being displayed).
 
 - [ ] __5:__ The banner displays on the page
 - [ ] __5:__ The banner spans the entire page width
