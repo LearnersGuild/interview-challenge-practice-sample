@@ -29,7 +29,7 @@ __Note__: For this and the following sections, please be sure to __read and foll
 
 ### Node and PostgreSQL
 
-Create a function in `db.js` called `getTeamColors` that uses `pg-promise`. The function should get the names of all colors for a given team (the raw result from `pg-promise` is fine -- it's not necessary to process the result to make, say, an array of strings).
+Create a function in `db.js` called `getTeamColors` that uses `pg-promise`. The function should take a team name as a parameter, and return a promise resolving to the names of that team's colors (the raw result from `pg-promise` is fine -- it's not necessary to process the result to make, say, an array of strings).
 
   - [ ] __5:__ Function accepts the name of a team as a parameter
   - [ ] __15:__ Function executes a query that returns the given team's associated colors
