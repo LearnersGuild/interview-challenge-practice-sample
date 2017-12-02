@@ -40,7 +40,7 @@
 - request / response and how they're used in express
 - using express middleware (e.g. body parser)
 - URL params
-- basic REST routing
+- basic REST routing patterns
 - Templating / server-side rendering: Pug / EJS
 
 ## DOM Manipulation
@@ -48,3 +48,5 @@
 - Selecting elements
 - Event listeners
 - Modifying / adding / removing elements
+- separate js file referenced from HTML document
+
