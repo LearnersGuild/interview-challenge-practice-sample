@@ -38,11 +38,12 @@ Create a function in `db.js` called `getTeamColors` that uses `pg-promise`. The 
 ## Part 2: Express
 
 ### GET route
-Create a GET route for `/:teamname/colors` that renders colors for a particular team. Use the `getTeamColors` function provided in `db.js`.
+Create a GET route for `/:teamname/colors` that renders a page with color names for a particular team. Use the `getTeamColors` function provided in `db.js`.
 
 - [ ] __5:__ Route uses GET
 - [ ] __10:__ Route uses `getTeamColors` to get the necessary data
-- [ ] __10:__ Route renders `team_colors.pug` OR `team_colors.ejs` template with the teams from the db
+- [ ] __10:__ Route renders `team_colors.pug` OR `team_colors.ejs` template
+- [ ] __10:__ Rendered page includes the names of the colors for the team in question
 
 ### POST route
 Create a POST route for `/teams/add` that receives JSON data and adds a new team to the database. Use the `addTeam` function provided in `db.js`. Example JSON POST data:
